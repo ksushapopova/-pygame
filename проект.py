@@ -164,6 +164,7 @@ while not done:
                 player.change_y = -3
             elif event.key == pygame.K_DOWN:
                 player.change_y = 3
+                
         elif event.type == pygame.KEYUP:
             if event.key == pygame.K_LEFT:
                 player.change_x = 0
